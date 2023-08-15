@@ -40,5 +40,4 @@ productsRouter.delete('/:id', (req: Request, res: Response) => {
     } else {
         res.send(404)
     }
-    res.send(404)
 })
